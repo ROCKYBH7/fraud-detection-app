@@ -61,12 +61,29 @@ Dwnload it here:
 
 After downloading, place the file inside the `Data/` folder:
 
+## 📂 Project Structure
+
 Fraud-Detection-Project/
-│── Data/
-│   └── fraudTest.csv
-│── fraud_app_final.py
-│── requirements.txt
-│── README.md
+
+│── saved_models/ # (optional folder for storing models)
+
+│── .gitattributes # Git LFS tracking file
+
+│── .gitignore # Ignored files list
+
+│── README.md # Project documentation
+
+│── fraud_app_final.py # Streamlit app
+
+│── fraud_model.pkl # Pre-trained ML model
+
+│── requirements.txt # Dependencies
+
+│── train_model.py # Script to train model
+
+│── Data/ # (create manually)
+
+│     └── fraudTest.csv # Dataset (downloaded separately)
 
 
 ⚠️ Ensure the dataset remains in the Data/ folder with the same filename for the app to function properly.
